@@ -119,8 +119,8 @@ However, there are many things to say, such as apology, lack of information, or 
 
 The recommended plug-in is GitBook 
 
-- [Collapse Table of Contents](#SUMMARY) 
-- [Page Contents](#TOC) 
+- [Collapse Table of Contents](#SUMMARY-Folding) 
+- [Page Contents](#Page-TOC) 
 - [UML Description](#UML) 
 
 ## SUMMARY Folding
