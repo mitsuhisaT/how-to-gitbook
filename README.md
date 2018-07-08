@@ -119,9 +119,9 @@ However, there are many things to say, such as apology, lack of information, or 
 
 The recommended plug-in is GitBook 
 
-- [Collapse Table of Contents](#SUMMARY-Folding) 
-- [Page Contents](#Page-TOC) 
-- [UML Description](#UML) 
+- [Collapse Table of Contents](#summary-Folding) 
+- [Page Contents](#page-toc) 
+- [UML Description](#uml) 
 
 ## SUMMARY Folding
 Documents created in GitBook have a table of contents on the left side of the screen. 
