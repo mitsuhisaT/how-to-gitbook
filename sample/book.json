@@ -1,0 +1,39 @@
+{
+  "root": "./",
+  "title": "GitBook sample with PlantUML.",
+  "description": "for your better work.",
+  "author": "Mitsuhisa Tanaka <asihustim@gmail.com>",
+  "language": "ja",
+  "plugins": [
+    "expand-active-chapter",
+    "page-toc",
+    "uml"
+  ],
+  "pluginsConfig": {
+    "page-toc": {
+      "position": "before-first",
+      "showByDefault": true
+    },
+    "uml": {
+      "charset": "utf-8",
+      "format": "svg"
+    }
+  },
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md",
+    "glossary": "GLOSSARY.md"
+  },
+  "structure.languages": "LANGS.md",
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "paperSize": "a4",
+    "margin": {
+      "top": 56,
+      "bottom": 56,
+      "right": 62,
+      "left": 62
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "my-gitbook-sample",
+  "version": "0.0.1",
+  "description": "GitBook is a command line tool (and Node.js library) for building beautiful books using GitHub/Git and Markdown (or AsciiDoc).",
+  "keywords": ["gitbook", "PlantUML", "uml", "PDF", "ePub"],
+  "homepage": "https://github.com/mitsuhisaT/how-to-gitbook",
+  "bugs": {
+    "url": "https://github.com/mitsuhisaT/how-to-gitbook/issues",
+    "email": "asihustim@gmail.com"
+  },
+  "license": "MIT",
+  "people": {
+    "author": "Mitsuhisa Tanaka <asihustim@gmail.com> (https://github.com/mitsuhisaT)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mitsuhisaT/how-to-gitbook.git"
+  },
+  "scripts": {
+    "build": "gitbook build",
+    "serve": "gitbook serve",
+    "pdf": "gitbook pdf",
+    "epub": "gitbook epub"
+  },
+  "config": {},
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "gitbook-plugin-uml": "^1.0.0"
+  },
+  "os": ["darwin", "linux", "win64", "win32"],
+  "engines": {
+    "node": ">=4.0.0",
+    "gitbook-cli": ">=2.3.2",
+    "svgexport": ">=0.3.2",
+    "java": ">=JDK1.8",
+    "plantuml.jar": ">=1.2018.8",
+    "calibre": "^3.27.1"
+  }
+}

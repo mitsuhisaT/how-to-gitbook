@@ -1,0 +1,6 @@
+*.pdf
+*.epub
+
+package.json
+yarn-error.log
+yarn.lock

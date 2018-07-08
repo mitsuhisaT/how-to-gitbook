@@ -1,0 +1,14 @@
+@startuml
+salt
+{+
+  {* Sample | File | Edit | Source | Refactor }
+  {/ General | Fullscreen | Behavior | Saving }
+  {
+    { Open image in: | ^Smart Mode^ }
+    [X] Smooth image when zoomed
+    [X] Confirm image delection
+    [ ] Show hidden images
+  }
+  [閉じる]
+}
+@enduml
