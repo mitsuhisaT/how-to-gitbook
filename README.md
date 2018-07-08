@@ -1,6 +1,8 @@
 # gitbook Usage
 Write how to use `gitbook-cli`.
 
+You can read Japanese [README.jp.md](README.jp.md).
+
 ## about GitBook
 [GitBook](https://www.gitbook.com)  can easily create ebooks such as HTMLs, PDF and ePUB from Markdown file. 
 
