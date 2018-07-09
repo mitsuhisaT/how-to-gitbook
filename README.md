@@ -120,7 +120,7 @@ However, there are many things to say, such as apology, lack of information, or 
 The recommended plug-in is GitBook 
 
 - [Collapse Table of Contents](#summary-Folding) 
-- [Page Contents](#page-toc) 
+- [Page Contents](#navigator) 
 - [UML Description](#uml) 
 
 ## SUMMARY Folding
@@ -149,13 +149,7 @@ Add `plugins` on `Book.json`.
 
 ```json
 {
-  "plugins": ["page-toc"],
-  "pluginsConfig": {
-    "page-toc": {
-      "position": "before-first",
-      "showByDefault": true
-    }
-  }
+  "plugins": ["navigator"],
 }
 ```
 
@@ -204,14 +198,10 @@ The following is a description of the `Book.json` when deploying 3 types of plug
 {
   "plugins": [
     "expand-active-chapter",
-    "page-toc",
+    "navigator",
     "uml"
   ],
   "pluginsConfig": {
-    "page-toc": {
-      "position": "before-first",
-      "showByDefault": true
-    },
     "uml": {
       "charset": "utf-8",
       "format": "svg"

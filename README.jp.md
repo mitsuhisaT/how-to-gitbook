@@ -148,13 +148,7 @@ TOC(Table of contents)をページ上部に表示します。
 
 ```json
 {
-  "plugins": ["page-toc"],
-  "pluginsConfig": {
-    "page-toc": {
-      "position": "before-first",
-      "showByDefault": true
-    }
-  }
+  "plugins": ["navigator"],
 }
 ```
 
@@ -204,14 +198,10 @@ $ gitbook install
 {
   "plugins": [
     "expand-active-chapter",
-    "page-toc",
+    "navigator",
     "uml"
   ],
   "pluginsConfig": {
-    "page-toc": {
-      "position": "before-first",
-      "showByDefault": true
-    },
     "uml": {
       "charset": "utf-8",
       "format": "svg"

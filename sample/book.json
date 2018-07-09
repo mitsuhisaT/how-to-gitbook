@@ -6,14 +6,10 @@
   "language": "ja",
   "plugins": [
     "expand-active-chapter",
-    "page-toc",
+    "navigator",
     "uml"
   ],
   "pluginsConfig": {
-    "page-toc": {
-      "position": "before-first",
-      "showByDefault": true
-    },
     "uml": {
       "charset": "utf-8",
       "format": "svg"
