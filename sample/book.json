@@ -10,6 +10,17 @@
     "uml"
   ],
   "pluginsConfig": {
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "google": true,
+      "weibo": false,
+      "instapaper": false,
+      "vk": false,
+      "all": [
+        "facebook", "twitter", "google", "weibo", "instapaper", "vk"
+      ]
+    },
     "uml": {
       "charset": "utf-8",
       "format": "svg"
