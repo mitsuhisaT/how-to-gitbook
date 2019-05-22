@@ -45,11 +45,13 @@ Using Microsoft Windows.
 Then install yarm instead of npm. 
 
 macOS  
+
 ```shell
 $ brew install yarn
 ```
 
 MS-Windows  
+
 ```shell
 > scoop install yarn
 ```
@@ -171,6 +173,7 @@ First install the NODE module `gitbook-plugin-uml`.
 ```shell
 $ yarn add gitbook-plugin-uml
 ```
+
 Add `plugins` on `Book.json`. 
 
 ```json

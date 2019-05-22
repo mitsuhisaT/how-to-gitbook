@@ -46,11 +46,13 @@ Microsoft Windows を利用している方は、
 それから、npm の代わりに yarm をインストールしておきましょう。
 
 macOS  
+
 ```shell
 $ brew install yarn
 ```
 
 MS-Windows  
+
 ```shell
 > scoop install yarn
 ```
@@ -102,7 +104,6 @@ $ gitbook --help
 ```
 
 # 初期化
-----
 
 ```
 $ gitbook init directory
@@ -111,7 +112,6 @@ $ gitbook init directory
 GitBook の詳しい使い方については [GitBook ツールチェーン ドキュメント](https://toolchain.gitbook.com) を参照してください。
 
 # プラグイン
-----
 GitBook は、[プラグイン](https://toolchain.gitbook.com/plugins/) を導入し機能拡張を実現できます。  
 
 GitBook のプラグインは、 [GitBook Plugins](https://plugins.gitbook.com) サイトより検索できます。
@@ -167,6 +167,7 @@ GitBookでも、プラグインを導入すると、インラインまたは、�
 このプラグインを使えば、`book.json` で、文字コード指定とフォーマット指定ができます。  
 
 先ず、NODEモジュール `gitbook-plugin-uml` をインストールします。
+
 ```shell
 $ yarn add gitbook-plugin-uml
 ```
@@ -215,7 +216,7 @@ $ gitbook install
 [Generating eBooks and PDFs](https://toolchain.gitbook.com/ebook.html) を参考に [calibre](https://calibre-ebook.com) をインストールします。  
 `calibre` は、無料で利用できる電子ブックの管理ツールです。  
 
-> calibre is a powerful and easy to use e-book manager.
+> calibre is a powerful and easy to use e-book manager.  
 > calibre は、強力で簡単に使える電子ブックマネージャーです。
 
 さらに、UMLをSVG形式で出力しているので、ePub、PDFを生成するために
