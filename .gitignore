@@ -9,10 +9,8 @@ node_modules
 
 # Book build output
 _book
-
-# eBook build output
 *.epub
 *.mobi
 *.pdf
-sample/assets
+sample/assets/images/uml
 /sample/yarn.lock
