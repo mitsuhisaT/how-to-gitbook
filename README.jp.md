@@ -109,7 +109,21 @@ $ gitbook --help
 $ gitbook init directory
 ```
 
-GitBook の詳しい使い方については [GitBook ツールチェーン ドキュメント](https://toolchain.gitbook.com) を参照してください。
+GitBook の詳しい使い方については、GitBook V1の 「GitBook ツールチェーン ドキュメント」サイトが消えてしまったので、GitHubから参照します。 [GitBook docs](https://github.com/GitbookIO/gitbook/tree/master/docs) を参照してください。
+
+「GitBook ツールチェーン ドキュメント」をローカルに復元する方法を下記に書いておきます。
+[GitHub: gitbook](https://github.com/GitbookIO/gitbook) を `clone` するか `fork` & `clone` して **docs** ディレクトリで
+
+```shell
+$ yarn install
+$ gitbook install
+$ gitbook serve
+...
+Starting server ...
+Serving book on http://localhost:4000
+```
+
+すれば、 *http://localhost:4000* で閲覧できます。
 
 # プラグイン
 GitBook は、[プラグイン](https://toolchain.gitbook.com/plugins/) を導入し機能拡張を実現できます。  
