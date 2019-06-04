@@ -1,5 +1,5 @@
 ---
-
+description: appendix
 ---
 # Appendix
 
@@ -48,6 +48,42 @@ book.json の `plugins` に、つぎの様に記述します。
 ```json
 {
   "plugins": ["hide-published-with"]
+}
+```
+
+`gitbook install` でプラグインをインストールしてください。
+
+## favicon設定
+GitBookの標準の **favicon** を変更するには、プラグインを利用します。
+[gitbook-plugin-custom-favicon](https://github.com/Bandwidth/gitbook-plugin-custom-favicon) を導入しました。  
+
+book.json の `plugins` に、つぎの様に記述します。
+
+```json
+{
+  "plugins": ["custom-favicon"],
+  "pluginsConfig": {
+    "favicon": "./assets/images/icon/favicon.ico"
+  }
+}
+```
+
+`gitbook install` でプラグインをインストールしてください。
+
+## LOGO画像設定
+[GitBook plugin:Insert logo](https://github.com/matusnovak/gitbook-plugin-insert-logo) を利用すると、左側のサマリーの上部にロゴ画像を挿入することが
+
+book.json の `plugins` に、つぎの様に記述します。
+
+```json
+{
+  "plugins": [ "insert-logo"],
+  "pluginsConfig": {
+    "insert-logo": {
+      "url": "/assets/images/mitsuhisaT_logo_L.png",
+      "style": "background: none;"
+    }
+  }
 }
 ```
 

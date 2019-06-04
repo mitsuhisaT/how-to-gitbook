@@ -95,3 +95,13 @@ Foo1 -> Foo6 : コレクションヘ
 
 ```puml { src="ja/uml/sample-screen.pu" }
 ```
+
+## おわりに
+[APPENDIX](./APPENDIX.md) に
+
+- ファビコンの変更
+- ロゴ画像の挿入
+- 多言語
+- その他
+
+について記述してあります。

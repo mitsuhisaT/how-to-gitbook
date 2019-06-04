@@ -5,11 +5,18 @@
   "author": "Mitsuhisa Tanaka <asihustim@gmail.com>",
   "language": "ja",
   "plugins": [
+    "custom-favicon",
+    "insert-logo",
     "expand-active-chapter",
     "navigator",
     "uml"
   ],
   "pluginsConfig": {
+    "favicon": "./assets/images/icon/favicon.ico",
+    "insert-logo": {
+      "url": "../assets/images/mitsuhisaT_logo_L.png",
+      "style": "background: none;"
+    },
     "sharing": {
       "facebook": false,
       "twitter": false,
