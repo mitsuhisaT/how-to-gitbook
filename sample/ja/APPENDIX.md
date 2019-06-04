@@ -17,7 +17,7 @@ book.json の `plugins` に、つぎの様に記述します。
 }
 ```
 
-デフォルトのプラグイんなので `gitbook install` は不要です。
+デフォルトのプラグインなので `gitbook install` は不要です。
 
 ### 個別に選ぶ
 個別に設定することも可能です。book.json の `pluginsConfig` に、つぎの様に記述します。
