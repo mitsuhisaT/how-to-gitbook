@@ -6,6 +6,7 @@
   - [UMLの記述](README.md#UMLの記述)
   - [インライン記述](README.md#インライン記述)
   - [外部ファイルで記述](README.md#外部ファイルで記述)
+  - [折りたたみ](README.md#折りたたみ)
   - [おわりに](README.md#おわりに)
 
 * [附録](APPENDIX.md)

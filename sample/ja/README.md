@@ -96,6 +96,63 @@ Foo1 -> Foo6 : コレクションヘ
 ```puml { src="ja/uml/sample-screen.pu" }
 ```
 
+## 折りたたみ
+折りたたみ(collapse)は、
+長いソースや画像を通常は表示せずに折りたたんで置く場合の方法です。  
+次の二つの方法があります。  
+
+- HTMLタグを記述する
+- collapseプラグインを使う
+
+### HTMLタグ記述
+**Markdown** の標準記法には定義されていません。が **Markdown** は **HTML** を簡単に記述する記法なので定義されていない機能は HTMLタグを直接記述することで実現できます。  
+
+`<details>` タグを利用します。次のように記述します。
+
+```html
+<details><summary>About This Mac</summary>
+<img src="../assets/images/myMacBookAir.png">
+</details>
+```
+
+折りたたむ中身の記述も **HTML** で記述します。
+
+<details><summary>About This Mac</summary>
+<img src="../assets/images/myMacBookAir.png">
+</details>
+
+こちらの方法の場合、Atom の markdown-preview で折りたたまれます。
+
+### collapseプラグイン
+`book.json` の `"plugins"` に `"collapse"` を追加し
+
+```json
+{
+  "plugins": [
+    "collapse"
+  ],
+}
+```
+
+```shell
+$ gitbook install
+```
+
+を行い、折りたたみたい箇所に次のように記述します。
+
+```
+{% collapse title="About This Mac" %}
+![my MacBook Air](../../assets/images/myMacBookAir.png)
+{% endcollapse %}
+```
+
+{% collapse title="About This Mac" %}
+![my MacBook Air](../../assets/images/myMacBookAir.png)
+{% endcollapse %}
+
+折りたたむ中身も **Markdown** 記法で記述できます。  
+Atom の markdown-preview では、当たり前ですが折り畳まれません。
+
 ## おわりに
 [APPENDIX](./APPENDIX.md) に
 
