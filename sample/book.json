@@ -9,6 +9,7 @@
     "insert-logo",
     "expand-active-chapter",
     "navigator",
+    "collapse",
     "uml"
   ],
   "pluginsConfig": {
