@@ -142,12 +142,12 @@ $ gitbook install
 
 ```
 {% collapse title="About This Mac" %}
-![my MacBook Air](../../assets/images/myMacBookAir.png)
+![my MacBook Air](../assets/images/myMacBookAir.png)
 {% endcollapse %}
 ```
 
 {% collapse title="About This Mac" %}
-![my MacBook Air](../../assets/images/myMacBookAir.png)
+![my MacBook Air](../assets/images/myMacBookAir.png)
 {% endcollapse %}
 
 折りたたむ中身も **Markdown** 記法で記述できます。  
